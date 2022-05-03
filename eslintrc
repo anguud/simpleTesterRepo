@@ -1,0 +1,28 @@
+{
+  "root": true,
+  "overrides": [
+    {
+      "files": [
+        "*.tf"
+      ],
+      "parser": "tf-parser",
+      "rules": {
+        "terraform-rules/my-rule": "error",
+        "terraform-rules/encrypted_Connections": "error",
+        "terraform-rules/dummy": "error",
+        "terraform-rules/test-rule": "error"
+      }
+    }
+  ],
+  "plugins": [
+    "terraform-rules"
+  ],
+  "parser": "tf-parser",
+  "parserOptions": {},
+  "rules": {
+    "terraform-rules/my-rule": "error",
+    "terraform-rules/encrypted_Connections": "error",
+    "terraform-rules/dummy": "error",
+    "terraform-rules/test-rule": "error"
+  }
+}
