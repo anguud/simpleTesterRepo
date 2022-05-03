@@ -1,0 +1,18 @@
+{
+    "root": true,
+    "overrides": [
+        {
+            "extends": "plugin:terraform-rules/terraform",
+            "files": [
+                "*.tf"
+            ],
+            "parser": "tf-parser",
+        }
+    ],
+    "plugins": [
+        "terraform-rules"
+    ],
+    "extends": "plugin:terraform-rules/terraform",
+    "parser": "tf-parser",
+    "parserOptions": {}
+}

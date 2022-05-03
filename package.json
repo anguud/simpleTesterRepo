@@ -1,0 +1,22 @@
+{
+  "name": "testing-rules",
+  "version": "1.0.0",
+  "description": "made for checking if terraform rules work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "terraform",
+    "rules",
+    "tester"
+  ],
+  "author": "bjørn",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-plugin-terraform-rules": "file:../eslint-plugin-terraform-rules",
+    "tf-parser": "file:../Terraform-ESLint-parser/parserTS",
+    "eslint": "^8.11.0"
+  },
+  "eslintIgnore": ["*.js"]
+}
